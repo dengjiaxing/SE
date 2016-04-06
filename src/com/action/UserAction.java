@@ -78,8 +78,7 @@ public class UserAction extends ActionSupport{
 	
 		List<User> userList=UserDao.getUserList();
 		context.put("userlist", userList);
-		
-		
+	
 		return "user";
 	}
 
